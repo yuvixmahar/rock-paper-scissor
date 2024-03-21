@@ -4,12 +4,57 @@
     border: border-box;
 }
 
+body {
+    background-color: #F7EEDD;
+}
+
 #heading {
     background-color: #143d69;
     color: #f4b41a;
-    height: 100px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 45px;
 }
+
+.container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.options {
+    height: 180px;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+#rock {
+    background-color: #FFB38E;
+}
+
+#paper {
+    background-color: #FF8E8F ;
+}
+
+#scissor {
+    background-color: #E178C5;
+    transform: rotate(90deg);
+}
+
+.options:hover {
+    border: 10px solid black;
+}
+
+.fa-hand-back-fist, .fa-hand, .fa-hand-scissors {
+    font-size: 125px;
+}
+
