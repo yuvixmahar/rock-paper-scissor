@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     border: border-box;
 }
 
@@ -26,6 +26,27 @@ body {
     margin-top: 80px;
 }
 
+.count {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 5rem;
+}
+
+.scores {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 40px;
+}
+
 .options {
     height: 180px;
     width: 180px;
@@ -48,6 +69,26 @@ body {
 #scissor {
     background-color: #E178C5;
     transform: rotate(90deg);
+}
+
+.result {
+    border: 2px solid black;
+    height: 100px;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    border-radius: 15px;
+    background-color: #070F2B;
+    color: aliceblue;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .options:hover {
