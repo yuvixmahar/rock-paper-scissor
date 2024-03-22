@@ -27,12 +27,20 @@ body {
 }
 
 .count {
-    height: 150px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 80px;
     font-size: 5rem;
+}
+
+.name {
+    height: 70px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .scores {
@@ -43,8 +51,15 @@ body {
     flex-direction: column;
 }
 
+
+
+button {
+    background-color: #F7EEDD;
+}
+
 p {
-    font-size: 40px;
+    margin-left: 40px;
+    margin-right: 28px;
 }
 
 .options {
@@ -99,3 +114,29 @@ p {
     font-size: 125px;
 }
 
+.comp-win {
+    background-color: red;
+    border: 2px solid black;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    border-radius: 15px;
+    color: aliceblue;
+
+}
+
+.you-win {
+    background-color: green;
+    border: 2px solid black;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    border-radius: 15px;
+    color: aliceblue;
+}
