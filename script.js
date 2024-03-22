@@ -1,8 +1,8 @@
 const rock = document.getElementById("rock");
 const paper = document.getElementById("paper");
 const scissor = document.getElementById("scissor");
-const yourScore = document.getElementById("you");
-const compScore = document.getElementById("opponent");
+const yourScore = document.getElementById("your-score");
+const compScore = document.getElementById("comp-score");
 const result = document.getElementById("result-box");
 const choices = ["rock", "paper", "scissor"];
 let playerChoice = "";
